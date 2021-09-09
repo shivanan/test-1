@@ -1,0 +1,145 @@
+{
+  "version": "2.0",
+  "models": [
+    {
+      "Key": "2",
+      "Name": "E1",
+      "Definition": {
+        "version": "v2",
+        "attributes": [],
+        "flows": {
+          "blocks": [
+            {
+              "title": "Action",
+              "type": "actionstart",
+              "id": "9d4d8a4b-abc5-41e2-8c05-90fe82470718",
+              "position": {
+                "left": 81,
+                "top": 69
+              },
+              "surface": "GetData",
+              "connections": {
+                "inputs": [],
+                "outputs": [
+                  {
+                    "source": "9d4d8a4b-abc5-41e2-8c05-90fe82470718:output:output",
+                    "target": "a652cc77-12ec-4fc6-82ed-3be639e214b9:input:trigger"
+                  }
+                ]
+              },
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "id": "output",
+                  "type": "",
+                  "label": "All Output",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "dataType": ""
+                },
+                {
+                  "id": "__error__",
+                  "type": "error",
+                  "label": "Error",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "dataType": ""
+                }
+              ],
+              "actionName": "GetData",
+              "initiate": false,
+              "published": false,
+              "debug": false,
+              "roles": [],
+              "static": true,
+              "canOverrideCredentials": false,
+              "docs": ""
+            },
+            {
+              "title": "Output",
+              "type": "actionoutput",
+              "id": "a652cc77-12ec-4fc6-82ed-3be639e214b9",
+              "position": {
+                "left": 414,
+                "top": 56
+              },
+              "surface": "GetData",
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "9d4d8a4b-abc5-41e2-8c05-90fe82470718:output:output",
+                    "target": "a652cc77-12ec-4fc6-82ed-3be639e214b9:input:trigger"
+                  }
+                ],
+                "outputs": []
+              },
+              "inputValues": [
+                {
+                  "id": "input",
+                  "type": "",
+                  "label": "Value",
+                  "value": "250",
+                  "description": "",
+                  "documentation": "",
+                  "transformation": "",
+                  "disablelog": ""
+                },
+                {
+                  "id": "trigger",
+                  "type": "",
+                  "label": "Trigger",
+                  "value": "",
+                  "description": "",
+                  "documentation": "",
+                  "transformation": "",
+                  "disablelog": ""
+                }
+              ],
+              "outputValues": [],
+              "fieldName": "value"
+            }
+          ],
+          "position": {
+            "top": 0,
+            "left": 0
+          }
+        },
+        "sources": [
+          {
+            "name": "GetData",
+            "published": false,
+            "static": true,
+            "initiate": false,
+            "canOverrideCredentials": false,
+            "outputs": [
+              "value"
+            ],
+            "parameters": []
+          }
+        ],
+        "actions": [
+          {
+            "name": "GetData",
+            "published": false,
+            "static": true,
+            "initiate": false,
+            "canOverrideCredentials": false,
+            "outputs": [
+              "value"
+            ],
+            "parameters": []
+          }
+        ],
+        "uioptions": {}
+      },
+      "UIDefinition": null,
+      "MetadataDictionary": "null",
+      "Icon": "",
+      "ApiRoutes": [],
+      "JSModules": [],
+      "ModelCollections": []
+    }
+  ]
+}
