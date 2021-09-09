@@ -10541,7 +10541,7 @@ module.exports = UXPComponents;
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"id":"ae12e425-9fe1-4553-f602-db3bf13880e5","author":"","widgets":[{"id":"test_1","name":"test_1","description":"A sample widget","icon":"","tags":[]}],"sidebarLinks":[],"uis":[],"menuItems":[]}');
+module.exports = JSON.parse('{"id":"ae12e425-9fe1-4553-f602-db3bf13880e5","author":"eutech","widgets":[{"id":"test_1","name":"test_1","description":"A sample widget","icon":"","tags":[]}],"sidebarLinks":[],"uis":[],"menuItems":[]}');
 
 /***/ })
 
